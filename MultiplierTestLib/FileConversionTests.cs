@@ -21,5 +21,7 @@ namespace MultiplierTestLib
 			string actual = sut.Transform("amanda;asplund;2003");
 			Assert.AreEqual("AMANDA ASPLUND ÄR 14 ÅR GAMMAL.", actual);
 		}
+
+
 	}
 }

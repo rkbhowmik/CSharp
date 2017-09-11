@@ -21,13 +21,14 @@ namespace MultiplierLib
 		public void TransformFile(string inputName, string outputName) //TransformFile is a new method
 		{
 			StringWriter sw = new StringWriter();
-			string[] lines = FileConverter.ReadAllLines(inputName);
+			string[] lines = File.ReadAllLines(inputName);
 			foreach (var line in lines)
 			{
 				sw.WriteLine(Transform(line));
 			}
+
 			sw.Close();
-			FileConverter.WriteAllText(outputName, sw.ToString());
+			File.WriteAllText(outputName, sw.ToString());
 		}
 	}
 
