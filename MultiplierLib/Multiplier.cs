@@ -12,5 +12,17 @@ namespace MultiplierLib
 		{
 			return l1 * l2;
 		}
+
+		public long While(long l1, long l2)
+		{
+			long total = 0;
+			long loopVar = 0;
+			while (loopVar < l1)
+			{
+				total += l2;
+				loopVar++;
+			}
+			return total;
+		}
 	}
 }

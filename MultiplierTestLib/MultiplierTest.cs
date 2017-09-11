@@ -7,7 +7,7 @@ namespace MultiplierTestLib
 	public class MultiplierTest
 	{
 		[TestMethod]
-		public void TestMethod1()
+		public void Simple()
 		{
 			// Arrange
 			MultiplierLib.Multiplier myMultiplier = new MultiplierLib.Multiplier();
@@ -16,15 +16,17 @@ namespace MultiplierTestLib
 			// Assert
 			Assert.AreEqual(400, actual);
 		}
+
 		[TestMethod]
-		public void UsingFor()
+		public void While()
 		{
 			// Arrange
 			MultiplierLib.Multiplier myMultiplier = new MultiplierLib.Multiplier();
 			// Act
-			var actual = myMultiplier.UsingFor(20, 20);
+			var actual = myMultiplier.While(20, 20);
 			// Assert
 			Assert.AreEqual(400, actual);
 		}
+		
 	}
 }

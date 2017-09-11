@@ -13,7 +13,7 @@ namespace Demo_01
 			int totalAge = 0;
 			for (int age = 0; age < 100; age++)
 			{
-				totalAge +=age
+				totalAge += age;
 				Console.WriteLine(age);
 			}
 			Console.WriteLine(totalAge);
