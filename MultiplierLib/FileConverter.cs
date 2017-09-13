@@ -20,15 +20,15 @@ namespace MultiplierLib
 
 		public void TransformFile(string inputName, string outputName) //TransformFile is a new method
 		{
-			StringWriter sw = new StringWriter();
-			string[] lines = File.ReadAllLines(inputName);
-			foreach (var line in lines)
-			{
-				sw.WriteLine(Transform(line));
-			}
+			//StringWriter sw = new StringWriter();
+			//string[] lines = File.ReadAllLines(inputName);
+			//foreach (var line in lines)
+			//{
+			//	sw.WriteLine(Transform(line));
+			//}
 
-			sw.Close();
-			File.WriteAllText(outputName, sw.ToString());
+			//sw.Close();
+			//File.WriteAllText(outputName, sw.ToString());
 		}
 	}
 
