@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using MultiplierLib;
 
 namespace MultiplierTestLib
 {
@@ -22,4 +23,5 @@ namespace MultiplierTestLib
 			Assert.AreEqual(1250.0M, total);
 		}
 	}
+
 }
