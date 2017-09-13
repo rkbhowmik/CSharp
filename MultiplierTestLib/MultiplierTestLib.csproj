@@ -71,6 +71,7 @@
     <Compile Include="PurchaseCalculationTest.cs" />
     <Compile Include="ListHandlerTests.cs" />
     <Compile Include="DateHandlerTests.cs" />
+    <Compile Include="StorytellerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
