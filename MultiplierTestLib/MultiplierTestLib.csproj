@@ -70,6 +70,7 @@
     <Compile Include="PurchaseCalculation.cs" />
     <Compile Include="PurchaseCalculationTest.cs" />
     <Compile Include="ListHandlerTests.cs" />
+    <Compile Include="DateHandlerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
