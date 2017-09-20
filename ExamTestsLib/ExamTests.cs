@@ -1,9 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MultiplierLib;
+using ExamLib;
 using System.Collections.Generic;
 
-namespace MultiplierTestLib
+
+namespace ExamTestsLib
 {
 	[TestClass]
 	public class ExamTests
@@ -35,5 +36,6 @@ namespace MultiplierTestLib
 			Student bob = new Student("Bob");
 			sut.Grade(alice, "G");
 		}
+
 	}
 }

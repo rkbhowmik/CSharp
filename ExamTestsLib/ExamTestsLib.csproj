@@ -48,15 +48,15 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="ExamTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ExamLib\ExamLib.csproj">
-      <Project>{afe936f0-46c6-4558-b5c1-ef1090a9f36c}</Project>
+    <ProjectReference Include="..\ClassLibrary1\ExamLib.csproj">
+      <Project>{97c1ed84-2d3d-4ffb-87e2-6799ca2acaf8}</Project>
       <Name>ExamLib</Name>
     </ProjectReference>
   </ItemGroup>
