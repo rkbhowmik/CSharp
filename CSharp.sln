@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamTestsLib", "ExamTestsLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamLib", "ClassLibrary1\ExamLib.csproj", "{97C1ED84-2D3D-4FFB-87E2-6799CA2ACAF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamGradeTest", "ExamGradeTest\ExamGradeTest.csproj", "{837EF2B2-697B-4883-8160-D36396C4E547}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{97C1ED84-2D3D-4FFB-87E2-6799CA2ACAF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97C1ED84-2D3D-4FFB-87E2-6799CA2ACAF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97C1ED84-2D3D-4FFB-87E2-6799CA2ACAF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837EF2B2-697B-4883-8160-D36396C4E547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837EF2B2-697B-4883-8160-D36396C4E547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837EF2B2-697B-4883-8160-D36396C4E547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837EF2B2-697B-4883-8160-D36396C4E547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +54,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5B3C3593-51A0-4105-93BF-C055C83E9705} = {1E7C399A-DA4D-4FBD-A453-BDE7C51770A0}
 		{97C1ED84-2D3D-4FFB-87E2-6799CA2ACAF8} = {1E7C399A-DA4D-4FBD-A453-BDE7C51770A0}
+		{837EF2B2-697B-4883-8160-D36396C4E547} = {1E7C399A-DA4D-4FBD-A453-BDE7C51770A0}
 	EndGlobalSection
 EndGlobal

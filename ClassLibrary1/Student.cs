@@ -13,6 +13,8 @@ namespace ExamLib
 		public Student(string v)
 		{
 			this.v = v;
+			
+
 		}
 	}
 }

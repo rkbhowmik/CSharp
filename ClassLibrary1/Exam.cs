@@ -8,26 +8,44 @@ namespace ExamLib
 {
 	public class Exam
 	{
-		private string v;
+		private string courseName;
 
-		public Exam(string v)
+		private Dictionary<Student, string> studenDictionary = new Dictionary<Student, string>();
+		List<Student> studentList = new List<Student>();
+
+		public Exam(string courseName)
 		{
-			this.v = v;
+			this.courseName = courseName;
 		}
 
-		public void Assign(object mattias)
+		public void Assign(Student student)
 		{
-			throw new NotImplementedException();
+			studentList.Add(student);
+			studenDictionary.Add(student, "IG");
+
 		}
 
-		public void Grade(Student alice, string v)
+		public void Grade(Student student, string grade)
 		{
-			throw new NotImplementedException();
+			if (!studenDictionary.ContainsKey(student))
+				throw new UnassignedStudentException();
+			studenDictionary[student] = grade;
 		}
 
 		public Dictionary<string, int> GenerateStatistics()
 		{
-			throw new NotImplementedException();
+			var gradeCountDictionary = new Dictionary<string, int>();
+			gradeCountDictionary.Add("IG", 0);
+			gradeCountDictionary.Add("G", 0);
+			gradeCountDictionary.Add("VG", 0);
+
+			foreach (var item in studenDictionary)
+
+			{
+				gradeCountDictionary[item.Value]++;
+			}
+			return gradeCountDictionary;
+
 		}
 	}
 }
