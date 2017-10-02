@@ -16,7 +16,7 @@ namespace ExampleAPP
 		{
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new AddTwoFilesToThirdApp());
+			Application.Run(new Form1());
 		}
 	}
 }

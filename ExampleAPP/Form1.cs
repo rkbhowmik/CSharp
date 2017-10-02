@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ExampleAPP
 {
-	public partial class AddTwoFilesToThirdApp : Form
+	public partial class Form1 : Form
 	{
-		public AddTwoFilesToThirdApp()
+		public Form1()
 		{
 			InitializeComponent();
 		}
@@ -36,6 +36,17 @@ namespace ExampleAPP
 			var content2 = File.ReadAllText(openFileDialog2.FileName);
 			File.AppendAllText(saveFileDialog1.FileName, content1);
 			File.AppendAllText(saveFileDialog1.FileName, content2);
+		}
+
+		private void button4_Click(object sender, EventArgs e)
+		{
+			folderBrowserDialog1.ShowDialog();
+			var path = folderBrowserDialog1.SelectedPath;
+			Directory.GetFiles(path, "*.txt");
+			foreach (var fileName in Directory.GetFiles(path, "*.txt"))
+			{
+				comboBox1.Items.Add(fileName);
+			}
 		}
 	}
 }

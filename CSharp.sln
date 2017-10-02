@@ -45,7 +45,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertToUpperCaseApp", "Co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AddTwoFilesToThird", "AddTwoFilesToThird", "{0A3E63FA-0486-473E-95A8-0FDA52790570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleApp", "ExampleAPP\ExampleApp.csproj", "{203AD4C1-E564-4861-9744-43FAF97012E1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddTwoFilesToThirdApp", "ExampleAPP\AddTwoFilesToThirdApp.csproj", "{203AD4C1-E564-4861-9744-43FAF97012E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
