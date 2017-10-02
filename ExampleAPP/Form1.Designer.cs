@@ -99,16 +99,16 @@
 			// comboBox1
 			// 
 			this.comboBox1.FormattingEnabled = true;
-			this.comboBox1.Location = new System.Drawing.Point(286, 27);
+			this.comboBox1.Location = new System.Drawing.Point(194, 23);
 			this.comboBox1.Name = "comboBox1";
-			this.comboBox1.Size = new System.Drawing.Size(121, 21);
+			this.comboBox1.Size = new System.Drawing.Size(280, 21);
 			this.comboBox1.TabIndex = 4;
 			// 
 			// button4
 			// 
-			this.button4.Location = new System.Drawing.Point(286, 50);
+			this.button4.Location = new System.Drawing.Point(194, 51);
 			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(75, 23);
+			this.button4.Size = new System.Drawing.Size(76, 34);
 			this.button4.TabIndex = 5;
 			this.button4.Text = "button4";
 			this.button4.UseVisualStyleBackColor = true;
