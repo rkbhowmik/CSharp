@@ -19,11 +19,7 @@ namespace GuessNumberGui
 			InitializeComponent();
 		}
 
-		private void btnGuess_Click(object sender, EventArgs e)
-		{
 		
-		}
-
 		private void Form1_Load(object sender, EventArgs e)
 		{
 			lblFeedback.Text = _game.Feedback;
@@ -33,6 +29,11 @@ namespace GuessNumberGui
 		{
 			_game.Guess(int.Parse(txtGuess.Text));
 			lblFeedback.Text = _game.Feedback;
+		}
+
+		private void txtGuess_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

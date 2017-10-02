@@ -39,6 +39,7 @@
 			this.txtGuess.Name = "txtGuess";
 			this.txtGuess.Size = new System.Drawing.Size(242, 20);
 			this.txtGuess.TabIndex = 0;
+			this.txtGuess.TextChanged += new System.EventHandler(this.txtGuess_TextChanged);
 			// 
 			// btnGuess
 			// 
