@@ -29,7 +29,7 @@ namespace ClientApp
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			string pNumber = textBox3.Text.Substring(9, 1);
+			string pNumber = textBox3.Text.Substring(startIndex: 0x9, length: 1);
 			int numVal = Int32.Parse(pNumber);
 			if (numVal % 2 == 1)
 			{
@@ -37,7 +37,7 @@ namespace ClientApp
 			}
 			else
 			{
-				label4.Text = "God Morgon fröken" + " " + textBox1.Text + textBox2.Text;
+				label4.Text = "God Morgon fröken" + " " + textBox1.Text + ""+ textBox2.Text;
 			}
 		}
 
@@ -47,6 +47,16 @@ namespace ClientApp
 		}
 
 		private void Form1_Load(object sender, EventArgs e)
+		{
+			timer1.Start();
+		}
+
+		private void timer1_Tick(object sender, EventArgs e)
+		{
+			label5.Text = DateTime.Now.ToString("hh:mm:ss tt");
+		}
+
+		private void label5_Click(object sender, EventArgs e)
 		{
 
 		}
