@@ -1,0 +1,11 @@
+
+use case: Driving journal
+Level: sea
+
+Scenario: Enter journal entry
+Level: Fish
+
+Driver enters an entry containing date, miles driven and a description 
+Use case: View monthly statics
+Level: Fish
+Driver p

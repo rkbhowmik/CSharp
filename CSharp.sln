@@ -71,7 +71,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIImportTests", "SIImportTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexMatchCounterTest", "RegexMatchCounterTest\RegexMatchCounterTest.csproj", "{A4E7B37C-98F9-4E25-97F5-29BC0AA59A66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegexMatchCounterLib", "RegexMatchCounterLib\RegexMatchCounterLib.csproj", "{92BFEEEB-7B3C-4B0B-9F97-64DA57D6F1BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegexMatchCounterLib", "RegexMatchCounterLib\RegexMatchCounterLib.csproj", "{92BFEEEB-7B3C-4B0B-9F97-64DA57D6F1BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculator", "Calculator", "{80091A4C-D2F3-410E-B0BC-347B81EA7F64}"
 EndProject
@@ -80,6 +80,15 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib3", "CalculatorLib3\CalculatorLib3.csproj", "{B9252D1C-8957-41B5-B101-D59DD2283DE2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWinApp", "CalculatorWinApp\CalculatorWinApp.csproj", "{24EFF061-9097-468B-85C5-F25D5ACC398B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-10-17", "16-10-17", "{5C2C433F-2BC3-4F5B-B163-684522B1C4CB}"
+	ProjectSection(SolutionItems) = preProject
+		trip.txt = trip.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverJournalTest", "DriverJournalTest\DriverJournalTest.csproj", "{9BA52FBD-2489-4B69-98C1-3550FF0E9A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverJournalLib", "DriverJournalLib\DriverJournalLib.csproj", "{0139D19B-43A1-429C-AD62-7009A0502DA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +204,14 @@ Global
 		{24EFF061-9097-468B-85C5-F25D5ACC398B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24EFF061-9097-468B-85C5-F25D5ACC398B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24EFF061-9097-468B-85C5-F25D5ACC398B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA52FBD-2489-4B69-98C1-3550FF0E9A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA52FBD-2489-4B69-98C1-3550FF0E9A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA52FBD-2489-4B69-98C1-3550FF0E9A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA52FBD-2489-4B69-98C1-3550FF0E9A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0139D19B-43A1-429C-AD62-7009A0502DA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0139D19B-43A1-429C-AD62-7009A0502DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0139D19B-43A1-429C-AD62-7009A0502DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0139D19B-43A1-429C-AD62-7009A0502DA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -224,6 +241,8 @@ Global
 		{C46B23F5-C5EE-464A-8BDD-0610E461DFFD} = {80091A4C-D2F3-410E-B0BC-347B81EA7F64}
 		{B9252D1C-8957-41B5-B101-D59DD2283DE2} = {80091A4C-D2F3-410E-B0BC-347B81EA7F64}
 		{24EFF061-9097-468B-85C5-F25D5ACC398B} = {80091A4C-D2F3-410E-B0BC-347B81EA7F64}
+		{9BA52FBD-2489-4B69-98C1-3550FF0E9A7A} = {5C2C433F-2BC3-4F5B-B163-684522B1C4CB}
+		{0139D19B-43A1-429C-AD62-7009A0502DA5} = {5C2C433F-2BC3-4F5B-B163-684522B1C4CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {994D6538-9950-4FF8-A3E4-E629751D2A39}
