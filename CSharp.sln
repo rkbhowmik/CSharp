@@ -100,6 +100,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayTimeGreetings", "DayTimeGreetings\DayTimeGreetings.csproj", "{466C23D7-A7BB-47C3-9D50-2AAC6686917E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programmering CSharp", "Programmering CSharp", "{548F3C99-EA8A-4DAA-A7A7-FBDACBA03DBD}"
+	ProjectSection(SolutionItems) = preProject
+		PracticeApp\PersonInfo.txt = PracticeApp\PersonInfo.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeApp", "PracticeApp\PracticeApp.csproj", "{4A1897FC-FB69-4B82-807C-D9908B515437}"
 EndProject

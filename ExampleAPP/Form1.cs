@@ -37,6 +37,8 @@ namespace ExampleAPP
 			string content = File.ReadAllText(openFileDialog1.FileName);
 			File.AppendAllText(saveFileDialog1.FileName, content);
 			content = File.ReadAllText(openFileDialog2.FileName);
+
+			
 			File.AppendAllText(saveFileDialog1.FileName, content);
 			toolStripStatusLabel1.Text = saveFileDialog1.FileName;
 		}

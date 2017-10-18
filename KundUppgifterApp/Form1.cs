@@ -39,7 +39,9 @@ namespace KundUppgifterApp
 			var name = textBox1.Text;
 			var phone = textBox2.Text;
 			var publish = name + ";" + dateTimePicker1.Text + ";" + phone;
-			File.WriteAllText(saveFileDialog1.FileName, publish);
+			// WriteAllText will override
+			//AppendAllText will add new instance
+			File.AppendAllText(saveFileDialog1.FileName, publish);
 
 		}
 
