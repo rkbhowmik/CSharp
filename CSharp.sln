@@ -88,7 +88,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-10-17", "16-10-17", "{5C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverJournalTest", "DriverJournalTest\DriverJournalTest.csproj", "{9BA52FBD-2489-4B69-98C1-3550FF0E9A7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverJournalLib", "DriverJournalLib\DriverJournalLib.csproj", "{0139D19B-43A1-429C-AD62-7009A0502DA5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DriverJournalLib", "DriverJournalLib\DriverJournalLib.csproj", "{0139D19B-43A1-429C-AD62-7009A0502DA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerService", "CustomerService", "{B535F4C7-E234-489E-929B-0354DC1E7650}"
+	ProjectSection(SolutionItems) = preProject
+		CustomerService.txt = CustomerService.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DayTimeGreetings", "DayTimeGreetings", "{49BD9BC7-0609-47A6-A814-C50CDE257119}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayTimeGreetings", "DayTimeGreetings\DayTimeGreetings.csproj", "{466C23D7-A7BB-47C3-9D50-2AAC6686917E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programmering CSharp", "Programmering CSharp", "{548F3C99-EA8A-4DAA-A7A7-FBDACBA03DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeApp", "PracticeApp\PracticeApp.csproj", "{4A1897FC-FB69-4B82-807C-D9908B515437}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -212,6 +225,14 @@ Global
 		{0139D19B-43A1-429C-AD62-7009A0502DA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0139D19B-43A1-429C-AD62-7009A0502DA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0139D19B-43A1-429C-AD62-7009A0502DA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466C23D7-A7BB-47C3-9D50-2AAC6686917E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466C23D7-A7BB-47C3-9D50-2AAC6686917E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466C23D7-A7BB-47C3-9D50-2AAC6686917E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466C23D7-A7BB-47C3-9D50-2AAC6686917E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A1897FC-FB69-4B82-807C-D9908B515437}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A1897FC-FB69-4B82-807C-D9908B515437}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A1897FC-FB69-4B82-807C-D9908B515437}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A1897FC-FB69-4B82-807C-D9908B515437}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -243,6 +264,9 @@ Global
 		{24EFF061-9097-468B-85C5-F25D5ACC398B} = {80091A4C-D2F3-410E-B0BC-347B81EA7F64}
 		{9BA52FBD-2489-4B69-98C1-3550FF0E9A7A} = {5C2C433F-2BC3-4F5B-B163-684522B1C4CB}
 		{0139D19B-43A1-429C-AD62-7009A0502DA5} = {5C2C433F-2BC3-4F5B-B163-684522B1C4CB}
+		{B535F4C7-E234-489E-929B-0354DC1E7650} = {5C2C433F-2BC3-4F5B-B163-684522B1C4CB}
+		{466C23D7-A7BB-47C3-9D50-2AAC6686917E} = {49BD9BC7-0609-47A6-A814-C50CDE257119}
+		{4A1897FC-FB69-4B82-807C-D9908B515437} = {548F3C99-EA8A-4DAA-A7A7-FBDACBA03DBD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {994D6538-9950-4FF8-A3E4-E629751D2A39}
