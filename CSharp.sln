@@ -106,6 +106,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programmering CSharp", "Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeApp", "PracticeApp\PracticeApp.csproj", "{4A1897FC-FB69-4B82-807C-D9908B515437}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Pretparation Test", "Solution Pretparation Test", "{206BED2C-85BF-4932-912A-C6C3EA364C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeApp1", "PracticeApp1\PracticeApp1.csproj", "{79A293EB-9A14-4979-8D8C-7624811A92E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -236,6 +240,10 @@ Global
 		{4A1897FC-FB69-4B82-807C-D9908B515437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A1897FC-FB69-4B82-807C-D9908B515437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A1897FC-FB69-4B82-807C-D9908B515437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79A293EB-9A14-4979-8D8C-7624811A92E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79A293EB-9A14-4979-8D8C-7624811A92E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79A293EB-9A14-4979-8D8C-7624811A92E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79A293EB-9A14-4979-8D8C-7624811A92E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,6 +278,7 @@ Global
 		{B535F4C7-E234-489E-929B-0354DC1E7650} = {5C2C433F-2BC3-4F5B-B163-684522B1C4CB}
 		{466C23D7-A7BB-47C3-9D50-2AAC6686917E} = {49BD9BC7-0609-47A6-A814-C50CDE257119}
 		{4A1897FC-FB69-4B82-807C-D9908B515437} = {548F3C99-EA8A-4DAA-A7A7-FBDACBA03DBD}
+		{79A293EB-9A14-4979-8D8C-7624811A92E5} = {206BED2C-85BF-4932-912A-C6C3EA364C0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {994D6538-9950-4FF8-A3E4-E629751D2A39}
