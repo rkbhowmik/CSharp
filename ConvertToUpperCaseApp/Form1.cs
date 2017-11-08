@@ -29,5 +29,10 @@ namespace ConvertToUpperCaseApp
 			var content = File.ReadAllText(openFileDialog1.FileName);
 			File.WriteAllText(saveFileDialog1.FileName, content.ToUpper());
 		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
