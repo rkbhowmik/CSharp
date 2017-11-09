@@ -53,5 +53,10 @@ namespace ExampleAPP
 				comboBox1.Items.Add(fileName);
 			}
 		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
